@@ -1,0 +1,17 @@
+library(dplyr)
+count(incidents_85_89)
+count(incidents)
+Count(V7)
+summary(sqrt(V3))
+PieChart(incidents_85_99 , data=`airline.safety.(1)`)
+?piechart
+Piechart(incidents_85_99 , data=`airline.safety.(1)`)
+count(`airline.safety.(1)`, incidents_85_99)
+count(`airline.safety.(1)`, incidents_85_99, airline)
+install.packages("lessR")
+BarChart(fatal_accidents_85_99, data=`airline.safety.(1)`, by=airline)
+?barchart
+barplot(airline, data=`airline.safety.(1)`)
+PieChart(avail_seat_km_per_week, data=`airline.safety.(1)`)
+xtabs(~ airline + fatal_accidents_85_99, data=`airline.safety.(1)`, addNA=TRUE)
+Plot(fatalities_85_99, data=`airline.safety.(1)`)
